@@ -1,5 +1,5 @@
 #ALUNOS
-#ELTON VICTOR-2024101405002
+#ELTON VICTOR-20241014050024
 #DANIEL ALEXANDRE-20242014050028
 
 peso = float(input("Digite o peso em kg: ")) #solicita o peso do usuario
