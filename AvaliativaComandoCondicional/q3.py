@@ -16,7 +16,7 @@ try:
     # Primeira tentativa
     tentativa = 1
 
-    # Início #pede ao usuario um numero caso seja o caorreto ele mostra a mensagem q acertou caso contrario nas 3 tentativas ele repete o codigo e limitando com base nos numeros ja ditos
+    # Início #pede ao usuario um numero caso seja o correto ele mostra a mensagem que acertou, caso contrario nas 3 tentativas seguintes ele repete o codigo, limitando com base nos numeros ja ditos
     print("Tente acertar o número sorteado entre 1 e 100!")
     print("Tentativa", tentativa, ": Digite um número entre", minimo, "e", maximo, ": ")
     palpite = int(input())
