@@ -2,10 +2,10 @@
 #ELTON VICTOR-20241014050024
 #DANIEL ALEXANDRE-20242014050028
 
-import random
+import random 
 
 try:
-    numero = random.randint(1, 100)
+    numero = random.randint(1, 100) #função para selecionar um numero aleatorio
     nmaximo = 100
     nminimo = 1
 
@@ -16,7 +16,7 @@ try:
     # Primeira tentativa
     tentativa = 1
 
-    # Início
+    # Início #pede ao usuario um numero caso seja o caorreto ele mostra a mensagem q acertou caso contrario nas 3 tentativas ele repete o codigo e limitando com base nos numeros ja ditos
     print("Tente acertar o número sorteado entre 1 e 100!")
     print("Tentativa", tentativa, ": Digite um número entre", minimo, "e", maximo, ": ")
     palpite = int(input())
